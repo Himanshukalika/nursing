@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <!-- Shield shape -->
+  <path d="M500 50 C 250 50, 50 250, 50 500 C 50 750, 250 950, 500 950 C 750 950, 950 750, 950 500 C 950 250, 750 50, 500 50 Z" fill="#1e1a45" stroke="#e8e8e8" stroke-width="20"/>
+  <path d="M500 100 C 280 100, 100 280, 100 500 C 100 720, 280 900, 500 900 C 720 900, 900 720, 900 500 C 900 280, 720 100, 500 100 Z" fill="none" stroke="#e8e8e8" stroke-width="20"/>
+  
+  <!-- Blue bottom section -->
+  <path d="M100 600 C 100 720, 280 900, 500 900 C 720 900, 900 720, 900 600 L 100 600 Z" fill="#00a0e4"/>
+  
+  <!-- Inner shield -->
+  <path d="M500 200 C 400 200, 300 300, 300 400 C 300 500, 400 600, 500 600 C 600 600, 700 500, 700 400 C 700 300, 600 200, 500 200 Z" fill="#1e1a45" stroke="#e8e8e8" stroke-width="10"/>
+  
+  <!-- SGE text -->
+  <text x="500" y="350" font-family="serif" font-size="100" font-weight="bold" text-anchor="middle" fill="#e8e8e8">SGE</text>
+  
+  <!-- Books icon -->
+  <g fill="#e8e8e8">
+    <polygon points="450,400 550,400 530,450 430,450"/>
+    <polygon points="430,450 530,450 510,500 410,500"/>
+  </g>
+  
+  <!-- Laurel wreaths -->
+  <g fill="#e8e8e8">
+    <!-- Left laurel -->
+    <path d="M280 400 C 250 450, 250 550, 280 600 C 250 550, 220 450, 280 400 Z"/>
+    <path d="M300 350 C 270 400, 270 500, 300 550 C 270 500, 240 400, 300 350 Z"/>
+    <path d="M320 300 C 290 350, 290 450, 320 500 C 290 450, 260 350, 320 300 Z"/>
+    <!-- Right laurel -->
+    <path d="M720 400 C 750 450, 750 550, 720 600 C 750 550, 780 450, 720 400 Z"/>
+    <path d="M700 350 C 730 400, 730 500, 700 550 C 730 500, 760 400, 700 350 Z"/>
+    <path d="M680 300 C 710 350, 710 450, 680 500 C 710 450, 740 350, 680 300 Z"/>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="500" y="700" font-family="sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#ffffff">SARKAR GROUP</text>
+  <text x="500" y="780" font-family="sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#ffffff">OF EDUCATION</text>
+</svg> 
