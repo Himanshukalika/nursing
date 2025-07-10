@@ -625,7 +625,7 @@ export default function NursingCollegePage() {
                   </div>
                 </div>
 
-                <blockquote className="text-gray-600 italic mb-4">"{alumni.quote}"</blockquote>
+                <blockquote className="text-gray-600 italic mb-4">&ldquo;{alumni.quote}&rdquo;</blockquote>
 
                 <div className="flex items-center text-sm">
                   <Star className="w-4 h-4 text-yellow-500 mr-2" />
