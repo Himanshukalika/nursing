@@ -544,34 +544,34 @@ export default function NursingCollegePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Dr. Sarah Johnson, DNP, RN",
-                class: "Class of 2018",
-                position: "Chief Nursing Officer",
-                organization: "Metropolitan General Hospital",
+                name: "Dr. Priya Sharma, MSN, RN",
+                class: "Class of 2019",
+                position: "Head Nurse",
+                organization: "AIIMS Delhi",
                 image: "/placeholder.svg?height=150&width=150",
                 quote:
-                  "The rigorous academic preparation and clinical experience at Sarkar Nursing College gave me the foundation to advance into healthcare leadership.",
-                achievement: "Led COVID-19 response team",
+                  "Sarkar Nursing College provided me with exceptional clinical training and leadership skills that helped me secure a position at one of India's premier hospitals.",
+                achievement: "Gold Medalist in MSN program",
               },
               {
-                name: "Michael Chen, MSN, FNP-C",
-                class: "Class of 2020",
-                position: "Family Nurse Practitioner",
-                organization: "Community Health Center",
+                name: "Rajesh Kumar, BSN, RN",
+                class: "Class of 2021",
+                position: "Critical Care Specialist",
+                organization: "Fortis Hospital, Jaipur",
                 image: "/placeholder.svg?height=150&width=150",
                 quote:
-                  "The MSN program's focus on evidence-based practice prepared me to provide comprehensive primary care to underserved populations.",
-                achievement: "Opened rural health clinic",
+                  "The hands-on training in state-of-the-art simulation labs at Sarkar Nursing College prepared me perfectly for the challenges of critical care nursing.",
+                achievement: "Received Best Nurse Award 2023",
               },
               {
-                name: "Emily Rodriguez, BSN, RN",
+                name: "Ananya Patel, BSN, RN",
                 class: "Class of 2022",
-                position: "Pediatric ICU Nurse",
-                organization: "Children's Medical Center",
+                position: "Pediatric Nurse",
+                organization: "Rainbow Children's Hospital",
                 image: "/placeholder.svg?height=150&width=150",
                 quote:
-                  "The simulation training and clinical rotations gave me confidence to work in high-acuity pediatric settings right after graduation.",
-                achievement: "DAISY Award recipient",
+                  "The faculty at Sarkar Nursing College mentored me throughout my journey, helping me discover my passion for pediatric care and excel in my specialized field.",
+                achievement: "Pediatric Nursing Excellence Award",
               },
             ].map((alumni, index) => (
               <motion.div
@@ -611,7 +611,7 @@ export default function NursingCollegePage() {
       </section>
 
       {/* News & Events */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900">Latest News & Events</h2>
@@ -679,7 +679,7 @@ export default function NursingCollegePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact & Visit */}
       <section className="py-20 bg-gray-900 text-white">
@@ -725,9 +725,7 @@ export default function NursingCollegePage() {
                   <div>
                     <h4 className="font-bold mb-1">Contact Numbers</h4>
                     <p className="text-gray-300">
-                      Admissions: (555) 123-4567<br />
-                      Mobile: +91 9890 12 3456<br />
-                      Mobile: +91 7020 56 7890<br />
+                      Admissions:
                       Mobile: +91 8947 94 7969<br />
                       Mobile: +91 8740 02 7036<br />
                       Mobile: +91 9462 72 6082<br />
