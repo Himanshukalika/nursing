@@ -507,14 +507,14 @@ export default function NursingCollegePage() {
               className="grid grid-cols-2 gap-4"
             >
               {[
-                { src: "/placeholder.svg?height=250&width=300", alt: "Simulation Lab" },
-                { src: "/placeholder.svg?height=250&width=300", alt: "Library" },
-                { src: "/placeholder.svg?height=250&width=300", alt: "Skills Lab" },
-                { src: "/placeholder.svg?height=250&width=300", alt: "Campus" },
+                { src: "/images/campus1.jpeg", alt: "Sarkar Nursing College Campus" },
+                { src: "/images/campus2.jpeg", alt: "Sarkar Nursing College Facilities" },
+                { src: "/images/campus3.jpeg", alt: "Sarkar Nursing College Labs" },
+                { src: "/images/campus4.jpeg", alt: "Sarkar Nursing College Classrooms" },
               ].map((image, index) => (
                 <div key={index} className={`relative ${index % 2 === 1 ? "mt-8" : ""}`}>
                   <Image
-                    src={image.src || "/placeholder.svg"}
+                    src={image.src}
                     alt={image.alt}
                     width={300}
                     height={250}
