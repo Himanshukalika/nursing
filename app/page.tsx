@@ -544,11 +544,11 @@ export default function NursingCollegePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Dr. Priya Sharma, MSN, RN",
+                name: "Dr. Maan Sharma, MSN, RN",
                 class: "Class of 2019",
                 position: "Head Nurse",
                 organization: "AIIMS Delhi",
-                image: "/placeholder.svg?height=150&width=150",
+                image: "/images/alumni-profile.jpeg",
                 quote:
                   "Sarkar Nursing College provided me with exceptional clinical training and leadership skills that helped me secure a position at one of India's premier hospitals.",
                 achievement: "Gold Medalist in MSN program",
@@ -558,7 +558,7 @@ export default function NursingCollegePage() {
                 class: "Class of 2021",
                 position: "Critical Care Specialist",
                 organization: "Fortis Hospital, Jaipur",
-                image: "/placeholder.svg?height=150&width=150",
+                image: "/images/alumni-profile.jpeg",
                 quote:
                   "The hands-on training in state-of-the-art simulation labs at Sarkar Nursing College prepared me perfectly for the challenges of critical care nursing.",
                 achievement: "Received Best Nurse Award 2023",
@@ -568,7 +568,7 @@ export default function NursingCollegePage() {
                 class: "Class of 2022",
                 position: "Pediatric Nurse",
                 organization: "Rainbow Children's Hospital",
-                image: "/placeholder.svg?height=150&width=150",
+                image: "/images/alumni-profile.jpeg",
                 quote:
                   "The faculty at Sarkar Nursing College mentored me throughout my journey, helping me discover my passion for pediatric care and excel in my specialized field.",
                 achievement: "Pediatric Nursing Excellence Award",
@@ -833,7 +833,7 @@ export default function NursingCollegePage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold">Sarkar Group of Education</h3>
-                  <p className="text-sm text-gray-400">Excellence in Education Since 1985</p>
+                  <p className="text-sm text-gray-400">Approved by AICTE & PCI and is affiliated to Rajasthan University of Health Sciences (RUHS)</p>
                 </div>
               </div>
               <p className="text-gray-400 mb-4">
