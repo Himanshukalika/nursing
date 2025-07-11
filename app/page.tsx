@@ -65,7 +65,7 @@ export default function NursingCollegePage() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Sarkar Group of Education</h1>
-                <p className="text-sm text-blue-600">Excellence in Education Since 1985</p>
+         
               </div>
             </div>
 
@@ -160,19 +160,7 @@ export default function NursingCollegePage() {
       </nav>
 
       {/* News Banner */}
-      <div className="bg-yellow-50 border-b border-yellow-200 py-3">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-center space-x-4">
-            <Bell className="w-5 h-5 text-yellow-600" />
-            <span className="text-sm font-medium text-yellow-800">
-              🎉 Congratulations! Our NCLEX-RN pass rate reaches 98.5% for 2024 graduates
-            </span>
-            <a href="#" className="text-sm text-blue-600 hover:underline">
-              Read More
-            </a>
-          </div>
-        </div>
-      </div>
+      
 
       {/* Hero Section */}
       <section className="relative bg-gray-50 py-20 min-h-[80vh] flex items-center overflow-hidden">
@@ -185,9 +173,9 @@ export default function NursingCollegePage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              Learn And Grow With{" "}
+              Sarkar Nursing{" "}
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
-                Top Nursing Programs
+                College
               </span>
             </motion.h1>
 
