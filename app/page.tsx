@@ -5,9 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import {
   Menu,
   X,
-  GraduationCap,
   Users,
-  Award,
   Building,
   BookOpen,
   MapPin,
