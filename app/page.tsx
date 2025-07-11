@@ -542,31 +542,31 @@ export default function NursingCollegePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Dr. Maan Sharma, MSN, RN",
+                name: "Dr. Anaya Sharma",
                 class: "Class of 2019",
                 position: "Head Nurse",
                 organization: "AIIMS Delhi",
-                image: "/images/alumni-profile.jpeg",
+                image: "/images/ananya.jpg",
                 quote:
                   "Sarkar Nursing College provided me with exceptional clinical training and leadership skills that helped me secure a position at one of India's premier hospitals.",
                 achievement: "Gold Medalist in MSN program",
               },
               {
-                name: "Rajesh Kumar, BSN, RN",
+                name: "Rajesh Kummar",
                 class: "Class of 2021",
                 position: "Critical Care Specialist",
                 organization: "Fortis Hospital, Jaipur",
-                image: "/images/alumni-profile.jpeg",
+                image: "/images/rajesh.jpg",
                 quote:
                   "The hands-on training in state-of-the-art simulation labs at Sarkar Nursing College prepared me perfectly for the challenges of critical care nursing.",
                 achievement: "Received Best Nurse Award 2023",
               },
               {
-                name: "Ananya Patel, BSN, RN",
+                name: "Dr Maan",
                 class: "Class of 2022",
                 position: "Pediatric Nurse",
                 organization: "Rainbow Children's Hospital",
-                image: "/images/alumni-profile.jpeg",
+                image: "/images/maan.jpg",
                 quote:
                   "The faculty at Sarkar Nursing College mentored me throughout my journey, helping me discover my passion for pediatric care and excel in my specialized field.",
                 achievement: "Pediatric Nursing Excellence Award",
