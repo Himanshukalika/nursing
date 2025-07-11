@@ -301,7 +301,7 @@ export default function NursingCollegePage() {
               className="relative"
             >
               <Image
-                src="/images/nursing-college.jpeg"
+                src="/images/nursing-college.jpg"
                 alt="Sarkar Nursing College Building"
                 width={600}
                 height={500}
@@ -505,10 +505,10 @@ export default function NursingCollegePage() {
               className="grid grid-cols-2 gap-4"
             >
               {[
-                { src: "/images/campus1.jpeg", alt: "Sarkar Nursing College Campus" },
-                { src: "/images/campus2.jpeg", alt: "Sarkar Nursing College Facilities" },
-                { src: "/images/campus3.jpeg", alt: "Sarkar Nursing College Labs" },
-                { src: "/images/campus4.jpeg", alt: "Sarkar Nursing College Classrooms" },
+                { src: "/images/campus1.jpg", alt: "Sarkar Nursing College Campus" },
+                { src: "/images/campus2.jpg", alt: "Sarkar Nursing College Facilities" },
+                { src: "/images/campus3.jpg", alt: "Sarkar Nursing College Labs" },
+                { src: "/images/campus4.jpg", alt: "Sarkar Nursing College Classrooms" },
               ].map((image, index) => (
                 <div key={index} className={`relative ${index % 2 === 1 ? "mt-8" : ""}`}>
                   <Image
