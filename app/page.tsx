@@ -303,32 +303,18 @@ export default function NursingCollegePage() {
               className="relative"
             >
               <Image
-                src="/placeholder.svg?height=500&width=600"
-                alt="Campus building"
+                src="/images/nursing-college.jpeg"
+                alt="Sarkar Nursing College Building"
                 width={600}
                 height={500}
-                className="rounded-2xl shadow-xl"
+                className="rounded-2xl shadow-xl object-cover"
               />
-
-              {/* Stats Overlay */}
-              <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm p-6 rounded-xl">
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">39</div>
-                    <div className="text-sm text-gray-600">Years of Excellence</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">95%</div>
-                    <div className="text-sm text-gray-600">Job Placement Rate</div>
-                  </div>
-                </div>
-              </div>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Academic Programs */}
+      {/* Academic Programs
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -447,7 +433,7 @@ export default function NursingCollegePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Campus & Facilities */}
       <section className="py-20 bg-white">
