@@ -831,12 +831,12 @@ export default function NursingCollegePage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold">Sarkar Group of Education</h3>
-                  <p className="text-sm text-gray-400">Approved by AICTE & PCI and is affiliated to Rajasthan University of Health Sciences (RUHS)</p>
                 </div>
               </div>
               <p className="text-gray-400 mb-4">
-                Preparing compassionate, competent nurses who lead positive change in healthcare through innovative
-                education and clinical excellence.
+              Approved by AICTE & PCI and is affiliated to Rajasthan University of Health Sciences (RUHS)
+
+
               </p>
               <div className="flex space-x-2">
                 <span className="px-2 py-1 bg-blue-600 text-white text-xs rounded">AACN Accredited</span>
@@ -944,7 +944,7 @@ export default function NursingCollegePage() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm mb-4 md:mb-0">
-                © 2024 Sarkar Nursing College. All rights reserved.
+                © 2025 Sarkar Nursing College. All rights reserved.
               </p>
               <div className="flex space-x-6 text-sm text-gray-400">
                 <a href="#" className="hover:text-white">
