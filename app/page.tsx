@@ -19,7 +19,6 @@ import {
   FileText,
   Microscope,
   Search,
-  Bell,
   User,
   ChevronDown,
   Star,
@@ -266,7 +265,7 @@ export default function NursingCollegePage() {
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">About Sarkar Nursing College</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 1985, Sarkar Nursing College has been at the forefront of nursing education, preparing
+                Sarkar Nursing College has been at the forefront of nursing education, preparing
                 healthcare professionals who demonstrate clinical excellence, compassionate care, and leadership in
                 diverse healthcare settings.
               </p>
